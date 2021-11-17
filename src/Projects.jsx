@@ -1,22 +1,14 @@
-import React, { Component } from "react";
-import { Container } from "semantic-ui-react";
+import React, { Component } from 'react'
+import { Container } from 'semantic-ui-react';
+import axios from 'axios';
 
 class Projects extends Component {
   state = {
-    projects: [
-      {
-        id: 1,
-        name: "My First Website",
-      },
-      {
-        id: 2,
-        name: "Fizzbuzz",
-      },
-    ],
+    projects: []
   };
 
   render() {
-    const { Projects } = this.state;
+    const { projects } = this.state;
 
     let projectsList = projects.map((project) => {
       return (
@@ -32,7 +24,13 @@ class Projects extends Component {
         {projectsList}
       </Container>
     );
-  }
-}
+  };
+
+  componentDidMount() {
+    axios.get("./data/projects.json").then((response) => {
+      this.setState({ projects: response.data });
+    });
+  };
+};
 
 export default Projects;
