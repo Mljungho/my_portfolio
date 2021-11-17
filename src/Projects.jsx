@@ -14,7 +14,7 @@ class Projects extends Component {
     let projectsList = projects.map((project) => {
       return (
         <div id={`project-${project.id}`} key={project.id}>
-          <h3>{project.name}</h3>
+          <ProjectCard project = {project} />
         </div>
       );
     });
