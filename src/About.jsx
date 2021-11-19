@@ -1,4 +1,4 @@
-import Reaxt from "react";
+import React from "react";
 import { Container } from "semantic-ui-react";
 
 const About = () => {
