@@ -8,7 +8,7 @@ const About = () => {
 
       <h2 id="about-headline_1">Personal</h2>
       <p>
-        I was born curious and in a long line of engineers that I was determined to break in my rebellious teenage years. 
+        Mathias Ljungholm was born curious and in a long line of engineers that I was determined to break in my rebellious teenage years. 
         And that didn't happen, things rarely end up exactly the way we expect. I found that Engineering tickled my curiosity in just the right way, There's always 
         something to build or break, boundries to challenge and fidgets to figure out how they work. I have a love for understanding systems and how different component
         coexist to create something greater than the sum of their own parts.
