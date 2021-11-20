@@ -18,7 +18,15 @@ describe("User can see list of projects", () => {
         cy.get("#project-2").within(() => {
             cy.get(".image").should("exist");
             cy.get(".header").should("contain", "FizzBuzz");
-            cy.get(".description").should("contain", "Making ruby backend application is fun.");
+            cy.get(".description").should("contain", "First Coding Kata I did. FizzBuzz is a childrens game designed to teach calculus, written in Ruby.");
+        });
+    });
+
+    it("displays the third project", () => {
+        cy.get("#project-3").within(() => {
+            cy.get(".image").should("exist");
+            cy.get(".header").should("contain", "ATM challenge" );
+            cy.get(".description").should("contain", "We designed an ATM logic with real life case scenarios and appropriate response." );
         });
     });
 });
