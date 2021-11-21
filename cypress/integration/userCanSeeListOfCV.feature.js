@@ -7,7 +7,7 @@ describe("User can see experience", () => {
     it("displays basic information", () => {
         cy.get("#cv-1").within(() => {
             cy.get(".header").should("contain", "Mathias Ljungholm");
-            cy.get(".meta").should("contain", "jr Developer");
+            cy.get(".meta").should("contain", "jr Developer & Sr Mechanical Engineer");
             cy.get(".description").should("exist");
         });
      });
@@ -16,7 +16,7 @@ describe("User can see experience", () => {
         cy.get("#cv-2").within(() => {
             cy.get(".header").should("contain", "Volvo Car Corporation");
             cy.get(".meta").should("contain", "MIE Engineer");
-            cy.get(".description").should("contain", "Working at Volvo...");
+            cy.get(".description").should("exist");
         });
      });
 });
