@@ -10,29 +10,29 @@
   {
     "id": 2,
     "prevwork": "Volvo Car Corporation",
-    "label": "MIE Engineer",
+    "label": "Sr MIE Engineer",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZhruC1VftVi_vNXZsmbulIkLED6aqCl4X66yaBn9XLXe1H2gtqnVRCU8ry8ugb5T-_S0&usqp=CAU",
-    "summary": "Working at Volvo..."
+    "summary": "Worked as a 'Template leader' witch is the package engineer role of a teamleader, worked on Roof area & led taskforce for autonomus drive"
   },
   {
     "id": 3,
     "prevwork": "Aston Martin Lagonda",
-    "label": "MIE Engineer",
+    "label": "Sr MIE Engineer",
     "image": "https://upload.wikimedia.org/wikipedia/de/thumb/8/84/Aston_Martin.svg/1200px-Aston_Martin.svg.png",
-    "summary": "Working at AML..."
+    "summary": "Tasked with balancing technical requirement with deisng, worked in the whole occupant area"
   },
   {
     "id": 4,
     "prevwork": "CEVT",
-    "label": "MIE Engineer",
+    "label": "jr MIE Engineer",
     "image": "https://images.ctfassets.net/fcqatyroz490/5OgKV8wxWwos2egGOgyyAc/f13aacc80ab760b0f12064604facc4e3/cevt-logo_2x.png?h=250",
-    "summary": "Working at CEVT..."
+    "summary": "As a MIE I was tasked with balancing legal requirement & engineering requirement and hand it over to design as Technical Input, worked with Doors & Side"
   },
   {
     "id": 5,
     "prevwork": "SAAB Aeronautics",
-    "label": "Fuselage Engineer",
+    "label": "jr Fuselage Engineer",
     "image": "https://ladenberg.se/wp-content/uploads/Saab-Group-logo.png",
-    "summary": "Working at SAAB Aeronautics..."
+    "summary": "I was tasked with designing fixture solutions for multiple systems in a given area, with high priority with weight optimization"
   }
 ]

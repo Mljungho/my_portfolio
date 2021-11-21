@@ -25,6 +25,7 @@ const CvCard = ({ cv }) => {
             <Item.Description>
             </Item.Description>
             <Item.Extra>{cv.email}</Item.Extra>
+            <Item.Extra>{cv.summary}</Item.Extra>
         </Item.Content>
         </Item>
 
