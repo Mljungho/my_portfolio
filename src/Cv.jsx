@@ -21,7 +21,7 @@ class Cv extends Component {
 
     return (
       <Container>
-        <h1 id="cv-header">My CV</h1>
+        <h1 id="cv-header">My CV and contact information</h1>
         <Grid>{cvList}</Grid>
       </Container>
     );

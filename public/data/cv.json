@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Mathias Ljungholm",
     "label": "jr Developer & Sr Mechanical Engineer",
-    "image": "",
+    "image": "https://avatars.githubusercontent.com/u/92157834?v=4",
     "email": "mathias.ljungholm@gmail.com",
     "phone": "+46 730728424"
   },
@@ -11,28 +11,28 @@
     "id": 2,
     "prevwork": "Volvo Car Corporation",
     "label": "MIE Engineer",
-    "image": "",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZhruC1VftVi_vNXZsmbulIkLED6aqCl4X66yaBn9XLXe1H2gtqnVRCU8ry8ugb5T-_S0&usqp=CAU",
     "summary": "Working at Volvo..."
   },
   {
     "id": 3,
     "prevwork": "Aston Martin Lagonda",
     "label": "MIE Engineer",
-    "image": "",
+    "image": "https://upload.wikimedia.org/wikipedia/de/thumb/8/84/Aston_Martin.svg/1200px-Aston_Martin.svg.png",
     "summary": "Working at AML..."
   },
   {
     "id": 4,
     "prevwork": "CEVT",
     "label": "MIE Engineer",
-    "image": "",
+    "image": "https://images.ctfassets.net/fcqatyroz490/5OgKV8wxWwos2egGOgyyAc/f13aacc80ab760b0f12064604facc4e3/cevt-logo_2x.png?h=250",
     "summary": "Working at CEVT..."
   },
   {
     "id": 5,
     "prevwork": "SAAB Aeronautics",
     "label": "Fuselage Engineer",
-    "image": "",
+    "image": "https://ladenberg.se/wp-content/uploads/Saab-Group-logo.png",
     "summary": "Working at SAAB Aeronautics..."
   }
 ]
