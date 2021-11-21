@@ -6,10 +6,11 @@ const CvCard = ({ cv }) => {
         <Card>
             <Card.Content>
                 <Card.Header>{cv.name}</Card.Header>
-                <Card.Description>{cv.label}</Card.Description>
-                <Card.Description>{cv.label}</Card.Description>
-                <Card.Description>{cv.label}</Card.Description>
-                <Card.Description>{cv.label}</Card.Description>
+                <Card.Header>{cv.prevwork}</Card.Header>
+                <Card.Meta>{cv.label}</Card.Meta>
+                <Card.Description>{cv.description}</Card.Description>
+                <Card.Description>{cv.phone}</Card.Description>
+                <Card.Description>{cv.summary}</Card.Description>
             </Card.Content>
         </Card>
     );

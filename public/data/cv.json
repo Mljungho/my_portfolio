@@ -1,11 +1,38 @@
 [
-     {
-      "name": "Mathias Ljungholm",
-      "label": "jr Developer",
-      "image": "",
-      "email": "mathias.ljungholm@gmail.com",
-      "phone": "+46 730728424",
-      "summary": "Working at Volvo..."
-      }
-
-    ]
+  {
+    "id": 1,
+    "name": "Mathias Ljungholm",
+    "label": "jr Developer",
+    "image": "",
+    "description": "mathias.ljungholm@gmail.com",
+    "phone": "+46 730728424"
+  },
+  {
+    "id": 2,
+    "prevwork": "Volvo Car Corporation",
+    "label": "MIE Engineer",
+    "image": "",
+    "summary": "Working at Volvo..."
+  },
+  {
+    "id": 3,
+    "prevwork": "Aston Martin Lagonda",
+    "label": "MIE Engineer",
+    "image": "",
+    "summary": "Working at AML..."
+  },
+  {
+    "id": 4,
+    "prevwork": "CEVT",
+    "label": "MIE Engineer",
+    "image": "",
+    "summary": "Working at CEVT..."
+  },
+  {
+    "id": 5,
+    "prevwork": "SAAB Aeronautics",
+    "label": "Fuselage Engineer",
+    "image": "",
+    "summary": "Working at SAAB Aeronautics..."
+  }
+]
