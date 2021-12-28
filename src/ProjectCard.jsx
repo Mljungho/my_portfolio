@@ -4,6 +4,7 @@ import { Card, Image } from "semantic-ui-react";
 const ProjectCard = ({ project }) => {
     return (
         <Card>
+                <Card color={project.color} />
             <Image src={project.image} wrapped ui={false} />
             <Card.Content>
                 <Card.Header>{project.name}</Card.Header>
