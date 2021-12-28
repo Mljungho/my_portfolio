@@ -6,6 +6,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Cv from "./Cv";
 import { Routes, Route } from 'react-router-dom';
+import "./App.css"
 
 const App = () => {
   return (
