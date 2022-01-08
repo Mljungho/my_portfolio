@@ -31,14 +31,42 @@
     "id": 5,
     "name": "ATM challenge",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ2fBOF_YyvsvheAo8Yv0oR9__fMlKNqZYIA&usqp=CAU",
-    "description": "We designed an ATM logic with real life case scenarios and appropriate response.",
+    "description": "We designed an ATM logic with real life case scenarios and appropriate response. First project with pair programming",
     "color": "red"
   },
   {
     "id": 6,
-    "name": "ATM challenge",
-    "image": "https://www.techyourchance.com/wp-content/uploads/2020/06/foo_bar_baz.jpeg",
-    "description": "We designed an ATM logic with real life case scenarios and appropriate response.",
+    "name": "Library challenge",
+    "image": "https://www.ghil.ac.uk/fileadmin/_processed_/1/6/csm_German-Historical-Institute-London_HR0024_e6c6419f96.jpg",
+    "description": "First project where we simulated a request from a client who needed to manage books lent out to customers.",
+    "color": "red"
+  },
+  {
+    "id": 7,
+    "name": "Employee List",
+    "image": "https://sloanreview.mit.edu/wp-content/uploads/2020/05/GEN-Rogelberg-Remote-Virtual-Zoom-Meeting-Video-Conference-1290x860-1.jpg",
+    "description": "Introduction to React and concept with states.",
+    "color": "red"
+  },
+  {
+    "id": 8,
+    "name": "OpenWeather App",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/OpenWeather-Logo.jpg",
+    "description": "introduction to making API calls and displaying results based on user location",
+    "color": "red"
+  },
+  {
+    "id": 8,
+    "name": "News of the World",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNc3y7q-kNa08qzwC2UGgndHnf66wDH7XrTw&usqp=CAU",
+    "description": "Legacy code introduction - Callenge was to finish a project that was started by another more senior developer",
+    "color": "red"
+  },
+  {
+    "id": 9,
+    "name": "News of the World",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNc3y7q-kNa08qzwC2UGgndHnf66wDH7XrTw&usqp=CAU",
+    "description": "Legacy code introduction - Callenge was to finish a project that was started by another more senior developer",
     "color": "red"
   }
 ]
