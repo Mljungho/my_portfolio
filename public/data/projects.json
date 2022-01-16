@@ -64,9 +64,23 @@
   },
   {
     "id": 9,
-    "name": "News of the World",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNc3y7q-kNa08qzwC2UGgndHnf66wDH7XrTw&usqp=CAU",
-    "description": "Legacy code introduction - Callenge was to finish a project that was started by another more senior developer",
+    "name": "Rock Paper Scissor",
+    "image": "https://www.playworks.org/colorado/wp-content/uploads/sites/5/2019/09/finalrps-classypage.jpg",
+    "description": "This was the first project we got to plan and develop ourselves, based on a clearly defined spec",
+    "color": "red"
+  },
+  {
+    "id": 9,
+    "name": "Slow Food client",
+    "image": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1244&h=622&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2020%2F01%2F04%2F7561904.jpg",
+    "description": "We developed an app to handle rescepie & product order mechanic. Combined front & Back end. ",
+    "color": "red"
+  },
+  {
+    "id": 9,
+    "name": "Yesterdays News",
+    "image": "https://cdn.britannica.com/25/93825-050-D1300547/collection-newspapers.jpg",
+    "description": "Much like Slwo Food project, we developed a newspaper site for different users. Readers, Journalist & Editors. Also used stripe for payment subsription.",
     "color": "red"
   }
 ]
