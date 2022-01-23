@@ -60,10 +60,14 @@ class ContactForm extends Component {
           <p>
             <label>
               Your message:
+              <br />
               <textarea
                 name="message"
                 value={message}
                 onChange={this.handleChange}
+                rows="4"
+                cols="50"
+                padding="50px"
               />
             </label>
           </p>
