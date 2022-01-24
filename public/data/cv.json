@@ -5,6 +5,7 @@
     "label": "jr Developer & Sr Mechanical Engineer",
     "image": "https://avatars.githubusercontent.com/u/92157834?v=4",
     "email": "mathias.ljungholm@gmail.com",
+    "date": "CA",
     "phone": "+46 730728424"
   },
   {
@@ -12,27 +13,35 @@
     "prevwork": "Volvo Car Corporation",
     "label": "Sr MIE Engineer",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZhruC1VftVi_vNXZsmbulIkLED6aqCl4X66yaBn9XLXe1H2gtqnVRCU8ry8ugb5T-_S0&usqp=CAU",
-    "summary": "Worked as a 'Template leader' witch is the package engineer role of a teamleader, worked on Roof area & led taskforce for autonomus drive"
+    "date": "JUN 2015 - FEB 2017 & JUL 2018 -  NOV 2021",
+    "summary": "Worked as a 'Template leader' witch is the package engineer role of a teamleader, worked on Roof area & led taskforce for autonomus drive",
+    "summary2": "description"
   },
   {
     "id": 3,
     "prevwork": "Aston Martin Lagonda",
     "label": "Sr MIE Engineer",
     "image": "https://upload.wikimedia.org/wikipedia/de/thumb/8/84/Aston_Martin.svg/1200px-Aston_Martin.svg.png",
-    "summary": "Tasked with balancing technical requirement with deisng, worked in the whole occupant area"
+    "date": "FEB 2017 - JUL 2018",
+    "summary": "Tasked with balancing technical requirement with deisng, worked in the whole occupant area",
+    "summary2": "description"
   },
   {
     "id": 4,
     "prevwork": "CEVT",
     "label": "jr MIE Engineer",
     "image": "https://images.ctfassets.net/fcqatyroz490/5OgKV8wxWwos2egGOgyyAc/f13aacc80ab760b0f12064604facc4e3/cevt-logo_2x.png?h=250",
-    "summary": "As a MIE I was tasked with balancing legal requirement & engineering requirement and hand it over to design as Technical Input, worked with Doors & Side"
+    "date": "MAY 2014 - JUN 2015",
+    "summary": "As a MIE I was tasked with balancing legal requirement & engineering requirement and hand it over to design as Technical Input, worked with Doors & Side",
+    "summary2": "As a MIE I was tasked with balancing legal requirement & engineering requirement and hand it over to design as Technical Input, worked with Doors & Side"
   },
   {
     "id": 5,
     "prevwork": "SAAB Aeronautics",
     "label": "jr Fuselage Engineer",
     "image": "https://ladenberg.se/wp-content/uploads/Saab-Group-logo.png",
-    "summary": "I was tasked with designing fixture solutions for multiple systems in a given area, with high priority with weight optimization"
+    "date": "JAN 2013 - MAY 2014",
+    "summary": "I was tasked with designing fixture solutions for multiple systems in a given area, with high priority with weight optimization",
+    "summary2": "description"
   }
 ]
