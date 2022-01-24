@@ -1,5 +1,5 @@
 import { Container } from "semantic-ui-react";
-import ContactForm from "./Contact";
+import ContactForm from "../modules/Contact";
 
 const Hello = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Grid } from 'semantic-ui-react';
 import axios from 'axios';
-import CvCard from './CvCard'
+import CvCard from '../modules/CvCard'
 
 class Cv extends Component {
   state = {
