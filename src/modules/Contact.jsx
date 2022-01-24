@@ -1,83 +1,65 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
+import { Container, Form, Input, Button, TextArea } from "semantic-ui-react";
 
-const encode = (data) => {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-};
+const Contact = () => {
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
 
-class ContactForm extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { name: "", email: "", message: "" };
-  }
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  handleSubmit = (e) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state }),
+      body: encode({ "form-name": "contact", ...form }),
     })
       .then(() => alert("Success!"))
       .catch((error) => alert(error));
-
-    e.preventDefault();
   };
-  handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
-  render() {
-    const { name, email, message } = this.state;
-    return (
-      <div
-        style={{
-          background: "grey",
-        }}
-      >
-        <form onSubmit={this.handleSubmit} netlify name="contact">
-          <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>
-              Your Name:
-              <input
-                type="text"
-                name="name"
-                value={name}
-                onChange={this.handleChange}
-              />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your Email:
-              <input
-                type="email"
-                name="email"
-                value={email}
-                onChange={this.handleChange}
-              />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your message:
-              <br />
-              <textarea
-                name="message"
-                value={message}
-                onChange={this.handleChange}
-                rows="4"
-                cols="50"
-                padding="50px"
-              />
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-      </div>
-    );
-  }
-}
+  const handleChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
+  return (
+    <Container>
+      <Form onSubmit={handleSubmit} netlify name="contact">
+        <input type="hidden" name="form-name" value="contact" />
+        <Form.Field inline>
+          <label data-cy="name-label">Your Name:</label>
+          <Input data-cy="name-input" name="name" onChange={handleChange} />
+        </Form.Field>
+        <Form.Field inline>
+          <label data-cy="email-label">Your Email:&nbsp;</label>
+          <Input
+            data-cy="email-input"
+            type="email"
+            name="email"
+            onChange={handleChange}
+          />
+        </Form.Field>
+        <Form.Field width={8}>
+          <label data-cy="message-label">Message:</label>
+          <TextArea
+            data-cy="message-textarea"
+            name="message"
+            onChange={handleChange}
+          />
+        </Form.Field>
+        <Button data-cy="submit-button" type="submit">
+          Send
+        </Button>
+      </Form>
+    </Container>
+  );
+};
 
-export default ContactForm;
+export default Contact;
